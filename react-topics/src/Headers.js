@@ -40,6 +40,36 @@ const Headers = () => {
       >
         Tab
       </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/starRating"
+      >
+        StarRating
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/todo"
+      >
+        Todo
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/form"
+      >
+        Form
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/pagination"
+      >
+        Pagination
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/inifiniteScroll"
+      >
+        InifiniteScroll
+      </NavLink>
     </div>
   );
 };
