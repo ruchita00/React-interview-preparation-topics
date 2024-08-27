@@ -12,7 +12,7 @@ const Headers = () => {
     >
       <NavLink
         style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
-        to="/"
+        to="/home"
       >
         Home
       </NavLink>
@@ -21,6 +21,12 @@ const Headers = () => {
         to="/search"
       >
         Search
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/stopwatch"
+      >
+        Stopwatch
       </NavLink>
     </div>
   );

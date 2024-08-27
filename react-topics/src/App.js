@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Layout from "./Layout";
+import StopWatch from "./pages/StopWatch";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,8 +20,8 @@ function App() {
           path: "/search",
         },
         {
-          element: <Home />,
-          path: "/home",
+          element: <StopWatch />,
+          path: "/stopwatch",
         },
       ],
     },
