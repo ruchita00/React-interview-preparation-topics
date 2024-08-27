@@ -34,6 +34,12 @@ const Headers = () => {
       >
         Accordion
       </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/tab"
+      >
+        Tab
+      </NavLink>
     </div>
   );
 };
