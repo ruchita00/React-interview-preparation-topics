@@ -28,6 +28,12 @@ const Headers = () => {
       >
         Stopwatch
       </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/accordion"
+      >
+        Accordion
+      </NavLink>
     </div>
   );
 };

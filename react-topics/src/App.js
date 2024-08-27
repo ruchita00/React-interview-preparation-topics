@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Layout from "./Layout";
 import StopWatch from "./pages/StopWatch";
+import Accordion from "./pages/Accordion";
 
 function App() {
   const router = createBrowserRouter([
@@ -22,6 +23,10 @@ function App() {
         {
           element: <StopWatch />,
           path: "/stopwatch",
+        },
+        {
+          element: <Accordion />,
+          path: "/accordion",
         },
       ],
     },
