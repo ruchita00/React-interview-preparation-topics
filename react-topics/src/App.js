@@ -14,6 +14,7 @@ import Practice from "./pages/Practice";
 import FormFiled from "./pages/FormFiled";
 import HOC from "./pages/HOC";
 import SearchFilter from "./pages/SearchFilter";
+import Memoization from "./pages/Memoization";
 
 function App() {
   const router = createBrowserRouter([
@@ -73,6 +74,10 @@ function App() {
         {
           element: <SearchFilter />,
           path: "/SearchFilter",
+        },
+        {
+          element: <Memoization />,
+          path: "/Memoization",
         },
         {
           element: <Practice />,
