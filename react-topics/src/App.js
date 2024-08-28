@@ -15,6 +15,7 @@ import FormFiled from "./pages/FormFiled";
 import HOC from "./pages/HOC";
 import SearchFilter from "./pages/SearchFilter";
 import Memoization from "./pages/Memoization";
+import EmojiSearch from "./pages/EmojiSearch";
 
 function App() {
   const router = createBrowserRouter([
@@ -78,6 +79,10 @@ function App() {
         {
           element: <Memoization />,
           path: "/Memoization",
+        },
+        {
+          element: <EmojiSearch />,
+          path: "/EmojiSearch",
         },
         {
           element: <Practice />,
