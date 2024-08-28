@@ -13,6 +13,7 @@ import InifiniteScroll from "./pages/InifiniteScroll";
 import Practice from "./pages/Practice";
 import FormFiled from "./pages/FormFiled";
 import HOC from "./pages/HOC";
+import SearchFilter from "./pages/SearchFilter";
 
 function App() {
   const router = createBrowserRouter([
@@ -68,6 +69,10 @@ function App() {
         {
           element: <HOC />,
           path: "/hoc",
+        },
+        {
+          element: <SearchFilter />,
+          path: "/SearchFilter",
         },
         {
           element: <Practice />,
