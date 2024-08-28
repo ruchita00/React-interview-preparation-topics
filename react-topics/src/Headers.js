@@ -72,6 +72,12 @@ const Headers = () => {
       </NavLink>
       <NavLink
         style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/hoc"
+      >
+        hoc
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
         to="/Practice"
       >
         Practice

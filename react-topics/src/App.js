@@ -12,6 +12,7 @@ import Pagination from "./pages/Pagination";
 import InifiniteScroll from "./pages/InifiniteScroll";
 import Practice from "./pages/Practice";
 import FormFiled from "./pages/FormFiled";
+import HOC from "./pages/HOC";
 
 function App() {
   const router = createBrowserRouter([
@@ -63,6 +64,10 @@ function App() {
         {
           element: <InifiniteScroll />,
           path: "/inifiniteScroll",
+        },
+        {
+          element: <HOC />,
+          path: "/hoc",
         },
         {
           element: <Practice />,
