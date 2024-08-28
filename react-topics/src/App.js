@@ -1,5 +1,5 @@
 import "./App.css";
-import { createBrowserRouter, Form, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Search from "./pages/Search";
 import Layout from "./Layout";
@@ -10,6 +10,8 @@ import { StarRating } from "./pages/StarRating";
 import Todo from "./pages/Todo";
 import Pagination from "./pages/Pagination";
 import InifiniteScroll from "./pages/InifiniteScroll";
+import Practice from "./pages/Practice";
+import FormFiled from "./pages/FormFiled";
 
 function App() {
   const router = createBrowserRouter([
@@ -49,8 +51,8 @@ function App() {
         },
 
         {
-          element: <Form />,
-          path: "/form",
+          element: <FormFiled />,
+          path: "/FormFiled",
         },
 
         {
@@ -61,6 +63,10 @@ function App() {
         {
           element: <InifiniteScroll />,
           path: "/inifiniteScroll",
+        },
+        {
+          element: <Practice />,
+          path: "/Practice",
         },
       ],
     },

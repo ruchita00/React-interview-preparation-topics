@@ -54,9 +54,9 @@ const Headers = () => {
       </NavLink>
       <NavLink
         style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
-        to="/form"
+        to="/FormFiled"
       >
-        Form
+        FormFiled
       </NavLink>
       <NavLink
         style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
@@ -69,6 +69,12 @@ const Headers = () => {
         to="/inifiniteScroll"
       >
         InifiniteScroll
+      </NavLink>
+      <NavLink
+        style={{ textDecoration: "none", color: "black", fontWeight: 600 }}
+        to="/Practice"
+      >
+        Practice
       </NavLink>
     </div>
   );
