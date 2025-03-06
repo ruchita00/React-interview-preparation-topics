@@ -21,6 +21,7 @@ const SearchInput = ({ onChange }) => {
     );
     setResult(filteredData);
   }, [onChange, debounceValue]);
+  console.log("hello")
 
   return (
     <div>
